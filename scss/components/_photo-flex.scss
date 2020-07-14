@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    .col img {
+        width: 300px;
+        height: 300px;
+        margin: 25px;
+    }
+    .col p {
+        display: none;
+    }
+}

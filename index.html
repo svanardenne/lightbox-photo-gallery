@@ -5,67 +5,119 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="main-header">
         <h1>Title Pending</h1>
         <p>Description Pending</p>
     </header>
 
-    <div>
+    <div class="search">
         <input type="text" placeholder="Search">
     </div>
 
     <div class="container">
-        <div>
-            <img src="photos/01.jpg" alt="Hay Bales">
-            <p>I love hay bales. Took this snap on a drive through the countryside past some straw fields.</p>
-        </div>
-        <div>
-            <img src="photos/02.jpg" alt="Lake">
-            <p>The lake was so calm today. We had a great view of the snow on the mountains from here.</p>
-        </div>
-        <div>
-            <img src="photos/03.jpg" alt="Canyon">
-            <p>I hiked to the top of the mountain and got this picture of the canyon and trees below.</p>
-        </div>
-        <div>
-            <img src="photos/04.jpg" alt="Iceberg">
-            <p>It was amazing to see an iceberg up close, it was so cold but didn’t snow today.</p>
-        </div>
-        <div>
-            <img src="photos/05.jpg" alt="Desert">
-            <p>The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.</p>
-        </div>
-        <div>
-            <img src="photos/06.jpg" alt="Fall">
-            <p>Fall is coming, I love when the leaves on the trees start to change color.</p>
-        </div>
-        <div>
-            <img src="photos/07.jpg" alt="Plantation">
-            <p>I drove past this plantation yesterday, everything is so green!</p>
-        </div>
-        <div>
-            <img src="photos/08.jpg" alt="Dunes">
-            <p>My summer vacation to the Oregon Coast. I love the sandy dunes!</p>
-        </div>
-        <div>
-            <img src="photos/09.jpg" alt="Countryside Lane">
-            <p>We enjoyed a quiet stroll down this countryside lane.</p>
-        </div>
-        <div>
-            <img src="photos/10.jpg" alt="Sunset">
-            <p>Sunset at the coast! The sky turned a lovely shade of orange.</p>
-        </div>
-        <div>
-            <img src="photos/11.jpg" alt="Cave">
-            <p>I did a tour of a cave today and the view of the landscape below was breathtaking.</p>
-        </div>
-        <div>
-            <img src="photos/12.jpg" alt="Bluebells">
-            <p>I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.</p>
-        </div>
+        <a href="photos/01.jpg" 
+        data-lightbox="slideshow" 
+        data-alt="Hay Bales" 
+        data-title="I love hay bales. Took this snap on 
+        a drive through the countryside past some straw fields.">
+            <div class="col">
+                <img src="photos/01.jpg" alt="Hay Bales">
+            </div>
+        </a>
+        <a href="photos/02.jpg" 
+        data-lightbox="slideshow"
+        data-alt="Lake"
+        data-title="The lake was so calm today. We had a great view of the snow on the mountains from here.">
+            <div class="col">
+                <img src="photos/02.jpg" alt="Lake">
+            </div>
+        </a>
+        <a href="photos/03.jpg" 
+        data-lightbox="slideshow"
+        data-alt="Canyon" data-title="I hiked to the top of the mountain and got this picture of the canyon and trees below.">
+            <div class="col">
+                <img src="photos/03.jpg" alt="Canyon">
+            </div>
+        </a>
+        <a href="photos/04.jpg" 
+        data-lightbox="slideshow"
+        data-alt="Iceberg"
+        data-title="It was amazing to see an iceberg up close, it was so cold but didn’t snow today.">
+            <div class="col">
+                <img src="photos/04.jpg" alt="Iceberg">
+            </div>
+        </a>
+        <a href="photos/05.jpg" 
+        data-lightbox="slideshow"
+        data-alt="Desert"
+        data-title="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.">
+            <div class="col">
+                <img src="photos/05.jpg" alt="Desert">
+            </div>
+        </a>
+        <a href="photos/06.jpg" 
+        data-lightbox="slideshow"
+        data-alt="Fall"
+        data-title="Fall is coming, I love when the leaves on the trees start to change color.">
+            <div class="col">
+                <img src="photos/06.jpg" alt="Fall">
+            </div>
+        </a>
+        <a href="photos/07.jpg" 
+        data-lightbox="slideshow"
+        data-alt="Plantation"
+        data-title="I drove past this plantation yesterday, everything is so green!">
+            <div class="col">
+                <img src="photos/07.jpg" alt="Plantation">
+            </div>
+        </a>
+        <a href="photos/08.jpg" 
+        data-lightbox="slideshow"
+        data-alt="Dunes"
+        data-title="My summer vacation to the Oregon Coast. I love the sandy dunes!">
+            <div class="col">
+                <img src="photos/08.jpg" alt="Dunes">
+            </div>
+        </a>
+        <a href="photos/09.jpg" 
+        data-lightbox="slideshow"
+        data-alt="Countryside Lane"
+        data-title="We enjoyed a quiet stroll down this countryside lane.">
+            <div class="col"> 
+                <img src="photos/09.jpg" alt="Countryside Lane">
+            </div>
+        </a>
+        <a href="photos/10.jpg" 
+        -lightbox="slideshow"
+        data-alt="Sunset"
+        data-title="Sunset at the coast! The sky turned a lovely shade of orange.">
+            <div class="col">
+                <img src="photos/10.jpg" alt="Sunset">
+            </div>
+        </a>
+        <a href="photos/11.jpg" 
+        data-lightbox="slideshow"
+        data-alt="Cave"
+        data-title="I did a tour of a cave today and the view of the landscape below was breathtaking.">
+            <div class="col">
+                <img src="photos/11.jpg" alt="Cave">
+            </div>
+        </a>
+        <a href="photos/12.jpg" 
+        data-lightbox="slideshow"
+        data-alt="Bluebells"
+        data-title="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.">
+            <div class="col">
+                <img src="photos/12.jpg" alt="Bluebells">
+            </div>
+        </a>
     </div>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
 </body>
 </html>
