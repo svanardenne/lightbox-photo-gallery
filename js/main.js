@@ -7,8 +7,8 @@ $('#searchbar').on('keyup', function() {
         let caption = $('.container a')[i].getAttribute('data-title').toLowerCase();
 
         if (caption.includes(search)) {
-            $('.container a')[i].fadeIn();
+            $($('.container a')[i]).fadeIn();
         } else
-            $('.container a')[i].fadeOut();
+            $($('.container a')[i]).fadeOut();
     }
 });

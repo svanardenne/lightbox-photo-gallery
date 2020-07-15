@@ -1,3 +1,6 @@
+/* ============================================= */
+/*              Variables                       */
+/* ============================================= */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -354,8 +357,10 @@ a {
   text-decoration: none;
 }
 
+/* ============================================= */
+/*              Header                      */
+/* ============================================= */
 .main-header {
-  margin: 0 auto;
   text-align: center;
 }
 .main-header h1 {
@@ -365,8 +370,10 @@ a {
   margin-bottom: 25px;
 }
 
+/* ============================================= */
+/*              Search Bar                       */
+/* ============================================= */
 .search {
-  margin: auto;
   text-align: center;
 }
 .search input {
@@ -378,12 +385,15 @@ a {
   border-radius: 5px;
 }
 
+/* ============================================= */
+/*              Photo Display                       */
+/* ============================================= */
 .container {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   text-align: center;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 .container .col img {
@@ -395,16 +405,26 @@ a {
   display: none;
 }
 
+/* ============================================= */
+/*              Media Queries                       */
+/* ============================================= */
 @media (min-width: 768px) {
   .container {
     flex-direction: row;
     justify-content: center;
   }
+  .container .col img {
+    margin: 50px;
+  }
 
   .search input {
     width: 40%;
+    max-width: 700px;
   }
 }
+/* ============================================= */
+/*              Lightbox                       */
+/* ============================================= */
 .lb-data .lb-details {
   width: 100%;
   text-align: center;

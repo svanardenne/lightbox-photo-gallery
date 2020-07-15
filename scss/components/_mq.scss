@@ -1,11 +1,19 @@
+/* ============================================= */
+/*              Media Queries                       */
+/* ============================================= */
+
 @media (min-width: $sm-break) {
     .container {
         flex-direction: row;
         justify-content: center;
+        .col img {
+            margin: 50px;
+        }
     }
     .search {
         input {
             width: 40%;
+            max-width: 700px;
         }
     }
 }
